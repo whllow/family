@@ -1,0 +1,30 @@
+.output{
+  border:1rpx solid #ccc;
+  width: 730rpx;
+height: 300rpx;
+
+margin-bottom:10rpx;
+}
+.output1{
+border:1rpx solid #ccc;
+width: 730rpx;
+height: 200rpx;
+}
+.output2{
+border:1rpx solid #ccc;
+width: 730rpx;
+height: 100rpx;
+}
+.butt{
+  display: flex;
+  flex-direction:row;
+  border:1rpx solid #aaa;
+  width: 730rpx;
+  height: 500rpx;
+}
+.leftlist{
+  border:1rpx solid #aaa;
+  height: 500rpx;
+   width:200rpx;
+}
+

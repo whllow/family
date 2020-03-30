@@ -1,0 +1,43 @@
+<!--index.wxml-->
+<view class="container">
+
+<view class='output'>
+<view class='output1'>
+<view wx:if="{{name}}">
+<view>{{name}}</view>
+</view>
+</view>
+<view class='output2'>
+<view wx:if="{{last}}">
+<view>{{last}}</view>
+</view>
+</view>
+</view>
+
+
+<view class='butt'>
+<view class='leftlist'>
+<view class='del'>
+<button bindtap="deteli">del</button>
+</view>
+
+<view class='equal'>
+<button bindtap="equal">=</button>
+</view>
+
+<view class='clear'>
+<button bindtap='clearname'>clear</button>
+</view>
+</view>
+<view class='but'>
+<block wx:for="{{butonlist}}" wx:for-item="idx">
+<button bindtap='changeName' data-hi='{{idx.link}}' data-lj='{{idx.link1es}}' size='mini'>
+{{idx.link}}
+</button>
+</block>
+</view>
+
+
+
+</view>
+</view>
